@@ -6,6 +6,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   transition: 300ms;
+  display: flex;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,8 +17,24 @@ p {
   color: #ffffff;
 }
 
+main,
+header {
+  padding: 1em 5em;
+}
+
 body {
   background-color: #222222;
   margin: 10;
   padding: 20;
+}
+
+@media (max-width: 690px) {
+  main,
+  header {
+    padding: 1em 2.5em;
+  }
+
+  header {
+    flex-direction: column;
+  }
 }
