@@ -6,15 +6,12 @@
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   transition: 300ms;
-  display: flex;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: white;
-}
-
-p {
-  color: #ffffff;
+body {
+  background-color: #222222;
+  margin: 0;
+  padding: 0;
 }
 
 main,
@@ -22,10 +19,47 @@ header {
   padding: 1em 5em;
 }
 
-body {
-  background-color: #222222;
-  margin: 10;
-  padding: 20;
+main {
+  background-color: #414141;
+}
+
+header,
+h1, h1, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-buttons {
+  display: flex;
+  gap: .5em;
+}
+
+.header-buttons a {
+  padding: .2em .5em;
+  background-color: #1e1e1e;
+  border-radius: .3em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header-buttons a:hover {
+  background-color: #000000;
+  font-weight: bold;
+}
+
+.logo {
+  height: 35px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  color: #ffffff;
 }
 
 @media (max-width: 690px) {
