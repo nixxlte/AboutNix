@@ -1,2 +1,3 @@
-#### Hi there! 📎
-I'm Nix, NixxLTE
+#### Haii! 📎
+Eu sou o Nix.  
+Um estudante C# focado em projetos linux/multiplataforma.

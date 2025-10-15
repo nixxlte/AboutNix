@@ -31,6 +31,7 @@ h1, h1, h3, h4, h5, h6 {
 header {
   display: flex;
   align-items: center;
+  border-radius: .4em;
   justify-content: space-between;
   background-color: #1b1b1b;
 }
@@ -42,7 +43,7 @@ header {
 
 .header-buttons a {
   padding: .2em .5em;
-  background-color: #1e1e1e;
+  background-color: #151515;
   border-radius: .3em;
   text-decoration: none;
   color: #ffffff;
@@ -57,6 +58,10 @@ header {
 h1, h1, h3, h4, h5, h6 {
   color: #ffffff;
   gap: 5;
+}
+
+.introduction {
+  align-items: center;
 }
 
 .logo {
@@ -87,8 +92,8 @@ footer {
 }
 
 @keyframes rgbText {
-  0%   { color: #ff5f5f; }
-  33%  { color: #70ff70; }
-  66%  { color: #8989ff; }
-  100% { color: #ff5f5f; }
+  0%   { color: #ff7979; }
+  33%  { color: #a3ffa3; }
+  66%  { color: #9e9eff; }
+  100% { color: #ff7979; }
 }
