@@ -64,14 +64,24 @@ h1, h1, h3, h4, h5, h6 {
   align-items: center;
 }
 
+.intro-buttons a{
+  padding: .2em .5em;
+  animation: rgbButton 5s infinite linear;
+  border-radius: .3em;
+  text-decoration: none;
+  color: #000000;
+}
+
 .logo {
   height: 35px;
 }
 
 footer {
   text-align: center;
+  align-items: center;
   padding: 10px 0;
   color: #050505;
+  background-color: #000000;
 }
 
 @media (max-width: 690px) {
@@ -91,9 +101,30 @@ footer {
   animation: rgbText 5s infinite linear;
 }
 
+footer {
+  height: 35px;
+}
+
+footer,
+.contact {
+  color: #ffffff;
+  
+}
+.contact a {
+  color: #b3d5ff;
+  text-decoration: none;
+}
+
 @keyframes rgbText {
   0%   { color: #ff7979; }
   33%  { color: #a3ffa3; }
   66%  { color: #9e9eff; }
   100% { color: #ff7979; }
+}
+
+@keyframes rgbButton {
+  0%   { background-color: #ff7979; }
+  33%  { background-color: #a3ffa3; }
+  66%  { background-color: #9e9eff; }
+  100% { background-color: #ff7979; }
 }
