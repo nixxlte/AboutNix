@@ -81,7 +81,6 @@ footer {
   align-items: center;
   padding: 10px 0;
   color: #050505;
-  background-color: #000000;
 }
 
 @media (max-width: 690px) {
@@ -111,7 +110,7 @@ footer,
   
 }
 .contact a {
-  color: #b3d5ff;
+  animation: rgbText 5s infinite linear;
   text-decoration: none;
 }
 
