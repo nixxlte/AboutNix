@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="shortcut icon" href="./assets/favicon.png" type="image/png">
+    <link rel="icon" href="./assets/favicon.png" type="image/png">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   </head>
   <body>
     <form name="def" method="dialog">
       <script src="js/index.js"></script>
     </form>
-    <header>
+    <header class="topping">
       <form id="Fhome" method="get" action="/"></form>
       <h2 class="rgb-text" onclick="home()">Hello, world! UwU</h2>
       <nav class="header-buttons">
         <a href="/">Home</a>
+        <a href="#projects">Projetos</a>
+        <a>NexusOS</a>
       </nav>
     </header>
     <div class="introduction" id="introduction"></div>
     <div class="intro-buttons">
       <a href="#projects">Projetos</a>
     </div>
-    <div class="projects" id="projects"></div>
+    <div class="projects" id="projects">
+      <iframe class="ifprojects" src="frames/projects.html" width="600" height="400" style="border: none;"></iframe>
+    </div>
     <footer>
       <h4>Feito por NixitCat (aka NixxLTE) uwu. Utilizando HTML CSS e JS</h4>
       <div class="contact-me">
