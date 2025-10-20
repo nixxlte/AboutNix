@@ -21,6 +21,12 @@ function start() {
       document.getElementById("contact").innerHTML = marked.parse(text);
     });
   
+  fetch("markdown/about.md")
+    .then(response => response.text())
+    .then(text => {
+      document.getElementById("about-content").innerHTML = marked.parse(text);
+    });
+
   document.Fhome.submit();
 
   update();

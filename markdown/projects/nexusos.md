@@ -1,0 +1,1 @@
+#### Um sistema operacional baseado em Linux projetado para ser rapido e utilizar programas PWA (Progressive Web App)

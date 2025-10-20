@@ -48,7 +48,6 @@ header {
 .header-buttons a {
   padding: .2em .5em;
   background-color: #151515;
-  border-radius: .3em;
   text-decoration: none;
   color: #ffffff;
   border: 1px solid var(--Bcolor);
@@ -64,7 +63,7 @@ header {
 
 .topping {
   border: 1px solid #ffffff;
-  border-radius: 7px;
+  border-radius: 13px;
   animation: rgbBorder 5s infinite linear;
 }
 
@@ -78,20 +77,144 @@ h1, h1, h3, h4, h5, h6 {
   align-items: center;
 }
 
-.intro-buttons a{
+.start-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.sec-projects a {
   padding: .2em .5em;
   animation: rgbButton 5s infinite linear;
-  border-radius: .3em;
+  border-radius: 7px;
   text-decoration: none;
   color: #000000;
+}
+
+.sec-about a {
+  padding: .2em .5em;
+  background-color: #151515;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid var(--Bcolor);
+  border-radius: 7px;
+  animation: rgbBorder 5s infinite linear;
 }
 
 .ifprojects {
   padding: 30px;
 }
 
+.projects {
+  border-radius: 10px;
+  padding: 20px 0px;
+  align-items: start;
+  margin: 15px;
+}
+
+h9 {
+  color: #222222;
+}
+
+h8 {
+  color: #1b1b1b;
+}
+
+.content {
+  padding: 5px 1px;
+}
+
+.project {
+  border: 1px solid #ffffff;
+  background-color: #1b1b1b;
+  margin: 15px;
+  border-radius: 13px;
+  padding: 16px 20px;
+  align-items: center;
+  animation: rgbBorder 5s infinite linear;
+}
+
+.Project-buttons a {
+  padding: .2em .5em;
+  background-color: #151515;
+  border-radius: .3em;
+  text-decoration: none;
+  color: #000000;
+  border-radius: 7px;
+  animation: rgbButton 5s infinite linear;
+}
+
+.text {
+  padding: 1px 1px;
+}
+
+.languages {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.technology {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.python {
+  background-color: #3572a5;
+}
+
+.csharp {
+  background-color: #178600;
+}
+
+.makefile {
+  background-color: #427819;
+}
+
+.assembly {
+  background-color: #6e4c13;
+}
+
+.c {
+  background-color: #555555;
+}
+
+.html {
+  background-color: #ff5733;
+}
+
+.css {
+  background-color: #6a0dad;
+}
+
+.js {
+  background-color: #f7df1e;
+}
+
+.shell {
+  background-color: #89e051;
+}
+
+.other {
+  background-color: #ffffff;
+}
+
 .logo {
   height: 35px;
+}
+
+.about {
+  border-radius: 10px;
+  padding: 10px 0px;
+  align-items: start;
+  margin: 20px;
+}
+
+.about,
+p {
+  color: #ffffff;
 }
 
 footer {
@@ -99,6 +222,12 @@ footer {
   align-items: center;
   padding: 10px 0;
   color: #050505;
+}
+
+footer a {
+  color: #bce3ff;
+  /*animation: rgbText 5s infinite linear;*/
+  text-decoration: none;
 }
 
 @media (max-width: 690px) {
@@ -118,8 +247,10 @@ footer {
   animation: rgbText 5s infinite linear;
 }
 
-footer {
+footer,
+.footer {
   height: 35px;
+  margin-bottom: 20px;
 }
 
 footer,
@@ -130,6 +261,17 @@ footer,
 .contact a {
   animation: rgbText 5s infinite linear;
   text-decoration: none;
+}
+
+span {
+  color: #ffffff;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 5px;
 }
 
 @keyframes rgbText {

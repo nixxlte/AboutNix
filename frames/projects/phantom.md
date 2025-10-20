@@ -1,1 +1,0 @@
-## Uma interface grafica para sistemas operacionais feita em C# e Avalon

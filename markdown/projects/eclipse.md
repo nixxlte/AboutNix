@@ -1,0 +1,1 @@
+#### Um kernel feito em C, somente para aprendizado (makefile não funcional ainda, não compila)

@@ -8,30 +8,136 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   </head>
   <body>
-    <form name="def" method="dialog">
+    <form name="def" method="dialog" id="home">
       <script src="js/index.js"></script>
+      <script src="js/projects.js"></script>
     </form>
     <header class="topping">
       <form id="Fhome" method="get" action="/"></form>
       <h2 class="rgb-text" onclick="home()">Hello, world! UwU</h2>
       <nav class="header-buttons">
-        <a href="/">Home</a>
+        <a href="#home">Home</a>
         <a href="#projects">Projetos</a>
         <a>NexusOS</a>
+        <a href="#about">Sobre</a>
       </nav>
     </header>
-    <div class="introduction" id="introduction"></div>
-    <div class="intro-buttons">
-      <a href="#projects">Projetos</a>
+    <div class="start-page">
+      <div class="introduction" id="introduction"></div>
+    </div>
+    <div class="flex" id="intro-buttons">
+      <div class="sec-projects">
+        <a href="#projects">Projetos</a>
+      </div>
+      <h9>..</h9>
+      <div class="sec-about">
+        <a href="#about">Sobre mim</a>
+      </div>
     </div>
     <div class="projects" id="projects">
-      <iframe class="ifprojects" src="frames/projects.html" width="600" height="400" style="border: none;"></iframe>
+      <h3>Meus projetos 📎​</h3>
+      <h9> </h9>
+      <div class="project" id="Phantom content">
+        <h3>PhantomGUI</h3>
+        <div class="desc" id="Phantom"></div>
+        <h9>.</h9>
+        <div class="flex">
+          <nav class="Project-buttons">
+            <a href="https://github.com/nixxlte/Phantom">See on github</a>
+          </nav>
+          <div class="languages">
+            <span class="technology csharp"></span>
+            <span class="text">C#</span>
+            <h8>...</h8>
+            <span class="technology python"></span>
+            <span class="text">Python</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project" id="NexusOS content">
+        <h3>NexusOS</h3>
+        <div class="desc" id="NexusOS"></div>
+        <h9>.</h9>
+        <div class="flex">
+          <nav class="Project-buttons">
+            <a href="https://github.com/nixxlte/NexusOS">See on github</a>
+          </nav>
+          <div class="languages">
+            <span class="technology csharp"></span>
+            <span class="text">C#</span>
+            <h8>...</h8>
+            <span class="technology html"></span>
+            <span class="text">HTML</span>
+            <h8>...</h8>
+            <span class="technology shell"></span>
+            <span class="text">Shell</span>
+            <h8>...</h8>
+            <span class="technology python"></span>
+            <span class="text">Python</span>
+            <h8>...</h8>
+            <span class="technology js"></span>
+            <span class="text">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project" id="Eclipse content">
+        <h3>Eclipse Kernel</h3>
+        <div class="desc" id="Eclipse"></div>
+        <h9>.</h9>
+        <div class="flex">
+          <nav class="Project-buttons">
+            <a href="https://github.com/nixxlte/Eclipse">See on github</a>
+          </nav>
+          <div class="languages">
+            <span class="technology c"></span>
+            <span class="text">C</span>
+            <h8>...</h8>
+            <span class="technology makefile"></span>
+            <span class="text">Makefile</span>
+            <h8>...</h8>
+            <span class="technology assembly"></span>
+            <span class="text">Assembly</span>
+            <h8>...</h8>
+            <span class="technology other"></span>
+            <span class="text">Other</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project" id="AboutNix content">
+        <h3>NixitCat portifolio</h3>
+        <div class="desc" id="AboutNix"></div>
+        <h9>.</h9>
+        <div class="flex">
+          <nav class="Project-buttons">
+            <a href="https://github.com/nixxlte/AboutNix">See on github</a>
+          </nav>
+          <div class="languages">
+            <span class="technology css"></span>
+            <span class="text">CSS</span>
+            <h8>...</h8>
+            <span class="technology html"></span>
+            <span class="text">HTML</span>
+            <h8>...</h8>
+            <span class="technology js"></span>
+            <span class="text">JavaScript</span>
+          </div>
+        </div>
+      </div>
     </div>
-    <footer>
+    <div class="about" id="about">
+      <h3>Sobre mim: 🖥️​</h3>
+      <div class="about" id="about-content"></div>
+    </div>
+    <footer class="footer" id="footer">
       <h4>Feito por NixitCat (aka NixxLTE) uwu. Utilizando HTML CSS e JS</h4>
       <div class="contact-me">
         <div class="contact" id="contact"></div>
       </div>
+      <h5>Linux é propriedade da <a href="https://www.linuxfoundation.org/">The Linux Foundation</a> <br>
+      C# (C sharp) é propriedade da <a href="https://www.microsoft.com/">Microsoft</a></h6>
     </footer>
   </body>
 </html>
