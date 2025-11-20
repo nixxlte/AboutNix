@@ -1,1 +1,2 @@
-#### Uma interface grafica para sistemas operacionais feita em C# e Avalon
+#### Uma interface grafica para sistemas operacionais feita em C# e AvaloniaUI
+provavelmente será so uma parte intera dentro do LuminOS feita para rodar programas desenvolvidos com o SDK e AvaloniaUI de forma mais fluida

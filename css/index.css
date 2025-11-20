@@ -217,6 +217,20 @@ p {
   color: #ffffff;
 }
 
+.Download {
+  padding: 10px 2px;
+}
+
+.Download a {
+  padding: .2em .5em;
+  background-color: #151515;
+  border-radius: .3em;
+  text-decoration: none;
+  color: #000000;
+  border-radius: 7px;
+  animation: rgbButton 5s infinite linear;
+}
+
 footer {
   text-align: center;
   align-items: center;

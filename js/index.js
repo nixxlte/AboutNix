@@ -1,4 +1,4 @@
-// Code by NixitCat UwU
+// Code by NyanNix UwU
 
 function home() {
   document.Fhome.submit();
@@ -20,11 +20,29 @@ function start() {
     .then(text => {
       document.getElementById("contact").innerHTML = marked.parse(text);
     });
+
+  fetch("markdown/contactENG.md")
+    .then(response => response.text())
+    .then(text => {
+      document.getElementById("contact-eng").innerHTML = marked.parse(text);
+    });
   
   fetch("markdown/about.md")
     .then(response => response.text())
     .then(text => {
       document.getElementById("about-content").innerHTML = marked.parse(text);
+    });
+
+  fetch("markdown/projects/aboutlumin.md")
+    .then(response => response.text())
+    .then (text => {
+      document.getElementById("about-lumin").innerHTML = marked.parse(text);
+    });
+  
+  fetch("markdown/download.md")
+    .then(response => response.text())
+    .then (text => {
+      document.getElementById("download-text").innerHTML = marked.parse(text);
     });
 
   document.Fhome.submit();

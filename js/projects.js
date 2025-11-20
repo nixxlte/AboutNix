@@ -1,13 +1,20 @@
+// Code by NyanNix UwU
 fetch("./markdown/projects/phantom.md")
     .then(response => response.text())
     .then(text => {
       document.getElementById("Phantom").innerHTML = marked.parse(text);
     });
 
-fetch("./markdown/projects/nexusos.md")
+fetch("./markdown/projects/luminos.md")
     .then(response => response.text())
     .then(text => {
-      document.getElementById("NexusOS").innerHTML = marked.parse(text);
+      document.getElementById("LuminOS").innerHTML = marked.parse(text);
+    });
+
+fetch("./markdown/projects/luminosENG.md")
+    .then(response => response.text())
+    .then(text => {
+      document.getElementById("LuminOS-eng").innerHTML = marked.parse(text);
     });
 
 fetch("./markdown/projects/eclipse.md")
