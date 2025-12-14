@@ -1,4 +1,4 @@
-// Code by NyanNix UwU
+// Code by NyanRay64 =3
 
 function home() {
   document.Fhome.submit();
@@ -43,6 +43,12 @@ function start() {
     .then(response => response.text())
     .then (text => {
       document.getElementById("download-text").innerHTML = marked.parse(text);
+    });
+
+  fetch("markdown/innerlines.md")
+    .then(response => response.text())
+    .then (text => {
+      document.getElementById("innerlines-text").innerHTML = marked.parse(text);
     });
 
   document.Fhome.submit();
