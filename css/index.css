@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: #222222;
+  background-color: #141414;
   margin: 0;
   padding: 20px;
 }
@@ -24,7 +24,7 @@ header {
 }
 
 main {
-  background-color: #414141;
+  background-color: #141414;
 }
 
 h1, h1, h3, h4, h5, h6 {
@@ -36,7 +36,7 @@ header {
   align-items: center;
   border-radius: .4em;
   justify-content: space-between;
-  background-color: #1b1b1b;
+  background-color: #121111;
   border-width: 20px solid #ffffff;
 }
 
@@ -47,7 +47,7 @@ header {
 
 .header-buttons a {
   padding: .2em .5em;
-  background-color: #151515;
+  background-color: #000000;
   text-decoration: none;
   color: #ffffff;
   border: 1px solid var(--Bcolor);
@@ -56,7 +56,7 @@ header {
 }
 
 .header-buttons a:hover {
-  background-color: #000000;
+  background-color: #111111;
   font-weight: bold;
   border-color: color-mix(in srgb, var(--Bcolor) 70%, black);
 }
@@ -116,7 +116,7 @@ h9 {
 }
 
 h8 {
-  color: #1b1b1b;
+  color: #0e0e0e;
 }
 
 .content {
@@ -125,7 +125,7 @@ h8 {
 
 .project {
   border: 1px solid #ffffff;
-  background-color: #1b1b1b;
+  background-color: #0e0e0e;
   margin: 15px;
   border-radius: 13px;
   padding: 16px 20px;
@@ -135,7 +135,7 @@ h8 {
 
 .Project-buttons a {
   padding: .2em .5em;
-  background-color: #151515;
+  background-color: #000000;
   border-radius: .3em;
   text-decoration: none;
   color: #000000;
