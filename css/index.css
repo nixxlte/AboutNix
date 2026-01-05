@@ -112,7 +112,7 @@ h1, h1, h3, h4, h5, h6 {
 }
 
 h9 {
-  color: #222222;
+  color: #121111;
 }
 
 h8 {
@@ -195,6 +195,14 @@ h8 {
 
 .shell {
   background-color: #89e051;
+}
+
+.cpp {
+  background-color: #f34b7d;
+}
+
+.cmake {
+  background-color: #da3434;
 }
 
 .other {

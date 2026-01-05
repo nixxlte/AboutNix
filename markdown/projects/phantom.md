@@ -1,2 +1,2 @@
-#### Uma interface grafica para sistemas operacionais feita em C# e AvaloniaUI
-provavelmente será so uma parte intera dentro do LuminOS feita para rodar programas desenvolvidos com o SDK e AvaloniaUI de forma mais fluida
+#### Uma biblioteca de interfaces graficas para linux
+essa biblioteca cria uma janela com C++ de uma forma mais simples
