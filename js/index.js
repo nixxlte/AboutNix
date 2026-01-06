@@ -57,3 +57,4 @@ function start() {
 }
 
 start();
+document.Fhome.submit();
