@@ -21,7 +21,7 @@ function start() {
       document.getElementById("contact").innerHTML = marked.parse(text);
     });
 
-  fetch("markdown/contactENG.md")
+  fetch("../markdown/contactENG.md")
     .then(response => response.text())
     .then(text => {
       document.getElementById("contact-eng").innerHTML = marked.parse(text);
@@ -33,19 +33,19 @@ function start() {
       document.getElementById("about-content").innerHTML = marked.parse(text);
     });
 
-  fetch("markdown/projects/aboutlumin.md")
+  fetch("../markdown/projects/aboutlumin.md")
     .then(response => response.text())
     .then (text => {
       document.getElementById("about-lumin").innerHTML = marked.parse(text);
     });
   
-  fetch("markdown/download.md")
+  fetch("../markdown/download.md")
     .then(response => response.text())
     .then (text => {
       document.getElementById("download-text").innerHTML = marked.parse(text);
     });
 
-  fetch("markdown/innerlines.md")
+  fetch("../markdown/innerlines.md")
     .then(response => response.text())
     .then (text => {
       document.getElementById("innerlines-text").innerHTML = marked.parse(text);
