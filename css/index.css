@@ -34,7 +34,7 @@ h1, h1, h3, h4, h5, h6 {
 header {
   display: flex;
   align-items: center;
-  border-radius: .4em;
+  border-radius: 1px;
   justify-content: space-between;
   background-color: #0d0d0d;
   border-width: 20px solid #ffffff;
@@ -63,7 +63,7 @@ header {
 
 .topping {
   border: 1px solid #ffffff;
-  border-radius: 13px;
+  border-radius: 1px;
   animation: rgbBorder 5s infinite linear;
 }
 
