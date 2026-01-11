@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background-image: url("background.png");
+  background-size: cover;      /* cobre a tela inteira */
+  background-position: center;
+  background-repeat: no-repeat;
+}
