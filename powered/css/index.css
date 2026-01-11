@@ -43,5 +43,6 @@ html, body {
 
 .main-window {
     margin: 0%;
-    background-color: #181818;
+    /*background-color: #181818;*/
+    background-color: rgb(28, 28, 28, 0.95);
 }

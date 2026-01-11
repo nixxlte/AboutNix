@@ -75,6 +75,13 @@ header {
   animation: rgbBorder 5s infinite linear;
 }
 
+.start-page,
+h1 {
+  color: #ffffff;
+  padding: 20px 0px;
+  animation: rgbText 5s infinite linear;
+}
+
 .introduction,
 h1, h1, h3, h4, h5, h6 {
   color: #ffffff;
@@ -132,6 +139,24 @@ h8 {
 
 .content {
   padding: 5px 1px;
+}
+
+.skills {
+  border-radius: 2px;
+  padding: 20px 0px;
+  align-items: center;
+  margin: 15px;
+}
+
+.skill-list {
+  display: inline-block;
+  border: 1px solid #ffffff;
+  background-color: #0d0d0d;
+  border-radius: 2px;
+  padding: 16px 20px;
+  align-items: center, center;
+  animation: rgbBorder 5s infinite linear;
+  margin: 15px;
 }
 
 .project {
@@ -229,6 +254,69 @@ h8 {
 
 .other {
   background-color: #ffffff;
+}
+
+.devicon-python-plain {
+  font-size: 50px;
+  color: #ffffff;
+  margin-right: 15px;
+  animation: rgbText 5s infinite linear;
+}
+
+.devicon-csharp-plain {
+  font-size: 50px;
+  color: #ffffff;
+  margin-right: 15px;
+  animation: rgbText 5s infinite linear;
+}
+
+.devicon-git-plain {
+  font-size: 50px;
+  color: #ffffff;
+  margin-right: 15px;
+  animation: rgbText 5s infinite linear;
+}
+
+.devicon-github-plain {
+  font-size: 50px;
+  color: #ffffff;
+  margin-right: 15px;
+  animation: rgbText 5s infinite linear;
+}
+
+.devicon-visualstudio-plain {
+  font-size: 50px;
+  color: #ffffff;
+  margin-right: 15px;
+  animation: rgbText 5s infinite linear;
+}
+
+.devicon-vscode-plain {
+  font-size: 50px;
+  color: #ffffff;
+  margin-right: 15px;
+  animation: rgbText 5s infinite linear;
+}
+
+.devicon-linux-plain {
+  font-size: 50px;
+  color: #ffffff;
+  margin-right: 15px;
+  animation: rgbText 5s infinite linear;
+}
+
+.devicon-linux-plain {
+  font-size: 50px;
+  color: #ffffff;
+  margin-right: 15px;
+  animation: rgbText 5s infinite linear;
+}
+
+.devicon-markdown-plain {
+  font-size: 50px;
+  color: #ffffff;
+  margin-right: 15px;
+  animation: rgbText 5s infinite linear;
 }
 
 .logo {
