@@ -319,6 +319,13 @@ h8 {
   animation: rgbText 5s infinite linear;
 }
 
+.devicon-ubuntu-plain {
+  font-size: 50px;
+  color: #ffffff;
+  margin-right: 15px;
+  animation: rgbText 5s infinite linear;
+}
+
 .logo {
   height: 35px;
 }
