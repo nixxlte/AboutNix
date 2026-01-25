@@ -17,6 +17,12 @@ fetch("../markdown/projects/luminosENG.md")
       document.getElementById("LuminOS-eng").innerHTML = marked.parse(text);
     });
 
+fetch("../markdown/projects/viceENG.md")
+    .then(response => response.text())
+    .then(text => {
+      document.getElementById("VICE-eng").innerHTML = marked.parse(text);
+    });
+
 fetch("./markdown/projects/eclipse.md")
     .then(response => response.text())
     .then(text => {
