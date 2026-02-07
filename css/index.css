@@ -186,6 +186,10 @@ h8 {
   animation: rgbButton 5s infinite linear;
 }
 
+#Phantom a {
+  animation: rgbText 5s infinite linear;
+}
+
 .text {
   padding: 1px 1px;
 }
