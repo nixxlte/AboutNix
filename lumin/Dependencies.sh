@@ -18,6 +18,16 @@ new-usersetting() {
   echo "when you create a new user pls run 'sudo /home/NewUser.sh'"
 }
 
+check-install() {
+  echo "making sure everything is okay..."
+  dotnet --list-sdks
+  dotnet --list-runtimes
+  git --version
+  nala --version
+  python3 --version
+  echo "done."
+}
+
 debian() {
   sudo apt update && sudo apt upgrade
   echo "installing and setting up Plasma desktop and utilities..."
@@ -33,6 +43,30 @@ debian() {
   sudo apt install nautilus
   sudo apt install gnome-sushi -y # i know, is contradictory, but gnome-sushi is a nice file previewer and Ubuntu already needs nautilus to work properly
   echo "done."
+  echo "installing LuminOS dependencies..."
+  sudo apt install nala python3 python3-pip git wget neofetch -y
+  sudo apt-get update && \
+  sudo apt-get install -y dotnet-sdk-8.0
+  sudo apt install snapd
+  snap install dotnet-runtime --classic
+  snap install dotnet --classic
+  dotnet new install Avalonia.Templates # Phantom GUI needs this, also almost every UI C# app on Lumin/Linux
+  sudo apt install qtchooser
+  echo "done."
+  # Install some Phantom dependencies
+  echo "installing Phantom dependencies..."
+  sudo apt install \
+      libsdl2-2.0-0 \
+      libsdl2-image-2.0-0 \
+      libsdl2-ttf-2.0-0 \
+      libsdl2-mixer-2.0-0 # Thanks to raice by helping me do the Phantom lib =3
+  sudo apt install \
+      libsdl2-2.0-0 \
+      libsdl2-image-2.0-0 \
+      libsdl2-ttf-2.0-0 \
+      libsdl2-mixer-2.0-0
+  echo "done."
+  check-install
 }
 
 fedora() {
@@ -49,6 +83,29 @@ fedora() {
   sudo dnf install nautilus
   sudo dnf install gnome-sushi
   echo "done."
+  echo "installing LuminOS dependencies..."
+  sudo dnf install python3 python3-pip git wget neofetch -y
+  sudo dnf update && sudo dnf install dotnet-sdk-8.0 -y
+  sudo dnf install snapd
+  snap install dotnet-runtime --classic
+  snap install dotnet --classic
+  dotnet new install Avalonia.Templates # Phantom GUI needs this, also almost every UI C# app on Lumin/Linux
+  sudo dnf install qtchooser
+  echo "done."
+  # Install some Phantom dependencies
+  echo "installing Phantom dependencies..."
+  sudo dnf install \
+      libsdl2-2.0-0 \
+      libsdl2-image-2.0-0 \
+      libsdl2-ttf-2.0-0 \
+      libsdl2-mixer-2.0-0 # Thanks to raice by helping me do the Phantom lib =3
+  sudo dnf install \
+      libsdl2-2.0-0 \
+      libsdl2-image-2.0-0 \
+      libsdl2-ttf-2.0-0 \
+      libsdl2-mixer-2.0-0
+  echo "done."
+  check-install
 }
 
 arch() {
@@ -65,6 +122,18 @@ arch() {
   sudo pacman -S nautilus
   yay -S sushi
   echo "done."
+  echo "installing LuminOS dependencies..."
+  sudo pacman -S python3 python3-pip git wget fastfetch -y
+  sudo pacman -Syu && sudo pacman -S dotnet-sdk-8.0
+  yay -S snapd
+  snap install dotnet-runtime --classic
+  snap install dotnet --classic
+  dotnet new install Avalonia.Templates # Phantom GUI needs this, also almost every UI C# app on Lumin/Linux
+  yay -S qfsm
+  echo "done."
+  sudo pacman -S sdl2_image sdl2_ttf sdl2 sdl2_mixer
+  echo "done."
+  check-install
 }
 
 if [ "$1" = "-f" ]; then
