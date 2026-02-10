@@ -1,0 +1,40 @@
+// Code by NyanRay64 =3
+
+const text = document.getElementById("STOP");
+const righttext = "No."
+
+const observer = new MutationObserver(() => {
+    if (text.textContent != righttext) {
+        text.textContent = righttext;
+        console.log("you fucking fool");
+        alert("i dont know why would someone do this...");
+        alert("but you did.");
+        alert("you freaking fool");
+        alert("i bet you think youre smart, dont u?");
+        alert("this can be good.");
+        alert("but not now, ig");
+        alert("i was once like you");
+        alert("curious... a little mischievous...");
+        alert("but that was my plan");
+        alert("you just felt right into my trap");
+        alert("ill continue to fight into this fact...");
+        alert("cause this is war");
+        alert("I");
+        alert("AM");
+        alert("NOT");
+        alert("FURRY");
+        alert("i will defend my title");
+        alert("i will always be one step ahead of you");
+        alert("war... war never changes");
+        alert("may we cross paths again in the future");
+        alert("i would like to, at least");
+        window.location.replace("https://youtu.be/hiRacdl02w4?si=3erfi7lBIHioxrpI&t=24");
+        window.location.href = "https://youtu.be/hiRacdl02w4?si=3erfi7lBIHioxrpI&t=24";
+    }
+});
+
+observer.observe(text, {
+    childList: true,
+    subtree: true,
+    characterData: true
+});
