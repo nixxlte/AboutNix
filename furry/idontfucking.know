@@ -28,7 +28,6 @@ const observer = new MutationObserver(() => {
         alert("war... war never changes");
         alert("may we cross paths again in the future");
         alert("i would like to, at least");
-        window.location.replace("https://youtu.be/hiRacdl02w4?si=3erfi7lBIHioxrpI&t=24");
         window.location.href = "https://youtu.be/hiRacdl02w4?si=3erfi7lBIHioxrpI&t=24";
     }
 });
