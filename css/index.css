@@ -190,6 +190,10 @@ h8 {
   animation: rgbText 5s infinite linear;
 }
 
+a {
+  animation: rgbText 5s infinite linear;
+}
+
 .text {
   padding: 1px 1px;
 }
