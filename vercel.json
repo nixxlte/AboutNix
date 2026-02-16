@@ -4,7 +4,6 @@
   "github": {
     "enabled": false
   },
-  "builds": [{ "src": "**/*", "use": "@vercel/static" }],
   "rewrites": [
     {
       "source": "/stats/:match*",
