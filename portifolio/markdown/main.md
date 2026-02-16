@@ -7,4 +7,14 @@ https://youtu.be/iA9t8KXmB7g?si=TLpaBN2rJA8YPm27<br>
 https://youtu.be/AUkKc2Nsb0I?si=6TbgpSrMBpWCoavz<br>
 https://youtu.be/OAqFkSL-d_U?si=Bij65fGctW0tBPte<br>  
 
-Por falar em musica, eu sou um jogador avancado do jogo de ritmo Geometry Dash, onde recentemente eu consegui 900h na steam,<br>o level mais dificil que eu ja passei e Nine Circles (do player Zobros) e eu estou fazendo progresso nas fazes Supersonic (do player ZenthicAlpha) e Eon (do player Renn241)<br> meu nivel favorito e Nullscapes (atual top five, segundo a [DemonList oficial do Pointercrate](https://www.pointercrate.com/demonlist/))<br>e eu sou um criador de fases tambem, eu nunca finalizei de fato uma fase, mas eu estou participando da collab "heartless" do Snow (& more) onde a decoracao esta ficando bem legal
+Por falar em musica, eu sou um jogador avancado do jogo de ritmo Geometry Dash, onde recentemente eu consegui 900h na steam,<br>o level mais dificil que eu ja passei e Nine Circles (do player Zobros) e eu estou fazendo progresso nas fazes Supersonic (do player ZenthicAlpha) e Eon (do player Renn241)<br> meu nivel favorito e Nullscapes (atual top five, segundo a [DemonList oficial do Pointercrate](https://www.pointercrate.com/demonlist/))<br>e eu sou um criador de fases tambem, eu nunca finalizei de fato uma fase, mas eu estou participando da collab "heartless" do Snow (& more) onde a decoracao esta ficando bem legal<br>  
+
+NyanRay Q&A:<br>  
+Se eu tivesse que abandonar programacao, o que eu escolheria como uma profissao?<br>
+"Definitivamente design grafico, inclusive eu ja tenho alguma experiencia com isso e eu estou aprendendo a usar o Figma."<br>  
+
+Quais linguagens de programacao eu sei usar para ao menos um proposito?<br>
+"C# (obviamente), C/C++, Python, GDscript, HTML, JavaScript, CSS, ShellScript, BatchScript, Pascal e Delphi" Isso nao quer dizer que eu realmente "sei trabalhar com essas linguagens" e sim, que eu ja fiz alguma coisa funcional com elas.<br>  
+
+Qual o foco do seu canal no YouTube?<br>
+"Tech e sistemas operacionais, como Windows, Linux, MacOS, etc. E quanto ao canal secundario, ele e so o canal onde eu posto coisas em relacao ao meu progresso no GeometryDash e conteudo sobre o jogo em geral."
