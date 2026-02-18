@@ -137,6 +137,10 @@ h8 {
   color: #0d0d0d;
 }
 
+h2 {
+  animation: rgbText 5s infinite linear;
+}
+
 .content {
   padding: 5px 1px;
 }

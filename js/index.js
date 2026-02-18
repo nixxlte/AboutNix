@@ -50,6 +50,12 @@ function start() {
     .then (text => {
       document.getElementById("innerlines-text").innerHTML = marked.parse(text);
     });
+  
+  fetch("../markdown/news.md")
+    .then(response => response.text())
+    .then (text => {
+      document.getElementById("news").innerHTML = marked.parse(text);
+    });
 
   document.Fhome.submit();
 

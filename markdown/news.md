@@ -1,0 +1,1 @@
+## every LuminOS changelog can be found [here](https://github.com/nixxlte/LuminOSversionHistory)
