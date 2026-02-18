@@ -4,3 +4,5 @@ Apesar de eu ser estudante de C#, eu trabalho com outras linguagens (dês de que
 Uma pergunta importante: Como eu faço interfaces graficas no C# para multiplataforma? Eu estou aprendendo a usar AvaloniaUI, e posteriormente eu postarei meus projetos com Avalonia aqui, mas o PhantomLIB utiliza um pacote proprio do linux.<br><br>
 **EU NAO TENHO HABILIDADES COM DESENVOLVIMENTO WEB**: Este site é um esforço que eu fiz para ter algum registro sobre mim, mas HTML, CSS, JS, etc NÃO são meu foco, eu estou focado em aprender C# para desenvolvimento desktop e talvez mobile. De fato esse website é a UNICA exceção existente.<br>
 e eu uso um teclado americano, entao raramente voce me vera usando acento nas palavras
+
+#### Meu [portifolio completo](/portifolio) pode ser encontrado [aqui](/portifolio) :3
