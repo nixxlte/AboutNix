@@ -18,3 +18,6 @@ Quais linguagens de programacao eu sei usar para ao menos um proposito?<br>
 
 Qual o foco do seu canal no YouTube?<br>
 "Tech e sistemas operacionais, como Windows, Linux, MacOS, etc. E quanto ao canal secundario, ele e so o canal onde eu posto coisas em relacao ao meu progresso no GeometryDash e conteudo sobre o jogo em geral."
+
+Qual sistema operacional voce usa?<br>
+"Eu nao tenho um sistema operacional fixo, e atualmente eu estou testando o Debian com cinnamon, mas meu Linux favorito definitivamente e ou o Pop!_OS ou o Manjaro, e se eu estivesse no mundo ideal, eu estaria usando um Mac, e eu sempre vou odiar o windows, mesmo que eu volte para ele em algum momento, eu nao consigo usar por muito tempo, e porque nele meu SSD fica cheio em 1 a 2 semanas, enquanto no linux ele fica com mais de 256GB livre (metade) por mais de 3 meses"
