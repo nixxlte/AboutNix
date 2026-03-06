@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Code by Nyan.T64 =3
+
 sudo apt update && sudo apt upgrade
 sudo apt install flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
