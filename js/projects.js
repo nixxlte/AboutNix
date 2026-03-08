@@ -34,3 +34,9 @@ fetch("./markdown/projects/aboutnix.md")
     .then(text => {
       document.getElementById("AboutNix").innerHTML = marked.parse(text);
     });
+
+fetch("../markdown/projects/extera.md")
+    .then(response => response.text())
+    .then(text => {
+      document.getElementById("Extera").innerHTML = marked.parse(text);
+    });
