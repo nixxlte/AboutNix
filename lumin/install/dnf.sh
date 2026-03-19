@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Code by Nyan.T64 =3
+# Code by Nyan.T64 -w-
 
 sudo dnf update && sudo dnf upgrade
 sudo dnf install flatpak

@@ -1,4 +1,4 @@
-# Code by Nyan.T64 =3
+# Code by Nyan.T64 -w-
 
 sudo pacman -Syu
 sudo pacman -S flatpak

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Code by Nyan.T64 =3
+# Code by Nyan.T64 -w-
 
 sudo apt update && sudo apt upgrade
 sudo apt install flatpak
