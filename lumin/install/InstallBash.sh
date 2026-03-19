@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Code by imNyan.T64 -w-
+
 mkdir ~/container && cd ~/container
 mkdir LuminOS
 mkdir github && cd github
