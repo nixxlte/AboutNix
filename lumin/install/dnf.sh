@@ -7,3 +7,5 @@ sudo dnf install flatpak git
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 flatpak update
+
+curl -s https://nyannix.is-a.dev/lumin/install/InstallBash.sh | bash
