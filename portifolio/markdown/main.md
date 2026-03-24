@@ -7,7 +7,7 @@ https://youtu.be/iA9t8KXmB7g?si=TLpaBN2rJA8YPm27<br>
 https://youtu.be/AUkKc2Nsb0I?si=6TbgpSrMBpWCoavz<br>
 https://youtu.be/OAqFkSL-d_U?si=Bij65fGctW0tBPte<br>  
 
-Por falar em musica, eu sou um jogador avancado do jogo de ritmo Geometry Dash, onde recentemente eu consegui 900h na steam,<br>o level mais dificil que eu ja passei e Nine Circles (do player Zobros) e eu estou fazendo progresso nas fazes Supersonic (do player ZenthicAlpha) e Eon (do player Renn241)<br> meu nivel favorito e Nullscapes (atual top five, segundo a [DemonList oficial do Pointercrate](https://www.pointercrate.com/demonlist/))<br>e eu sou um criador de fases tambem, eu nunca finalizei de fato uma fase, mas eu estou participando da collab "heartless" do Snow (& more) onde a decoracao esta ficando bem legal<br>  
+Por falar em musica, eu sou um jogador avancado do jogo de ritmo Geometry Dash, onde recentemente eu consegui 1000h na steam,<br>o level mais dificil que eu ja passei e Nine Circles (do player Zobros) e eu estou fazendo progresso nas fazes Supersonic (do player ZenthicAlpha) e Eon (do player Renn241)<br> meu nivel favorito e Nullscapes (atual top five, segundo a [DemonList oficial do Pointercrate](https://www.pointercrate.com/demonlist/))<br>e eu sou um criador de fases tambem, eu nunca finalizei de fato uma fase, mas eu estou participando da collab "heartless" do Snow (& more) onde a decoracao esta ficando bem legal<br>  
 
 NyanRay Q&A:<br>  
 Se eu tivesse que abandonar programacao, o que eu escolheria como uma profissao?<br>

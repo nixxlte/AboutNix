@@ -1,4 +1,4 @@
 Contact me:  
-My e-mails : iamthenix@yahoo.com  
+My e-mails : nixlte404@yahoo.com 
 danielpaivacardozo@gmail.com  
-Telegram and Discord : @nyanray64
+Discord : @imNyan.T64
