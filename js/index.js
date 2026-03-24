@@ -57,6 +57,12 @@ function start() {
       document.getElementById("news").innerHTML = marked.parse(text);
     });
 
+  fetch("../markdown/notexists.md")
+    .then(response => response.text())
+    .then (text => {
+      document.getElementById("404error").innerHTML = marked.parse(text);
+    });
+
   document.Fhome.submit();
 
   update();
