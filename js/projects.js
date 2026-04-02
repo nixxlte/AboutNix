@@ -5,6 +5,12 @@ fetch("./markdown/projects/phantom.md")
       document.getElementById("Phantom").innerHTML = marked.parse(text);
     });
 
+fetch("./markdown/projects/nx.md")
+    .then(response => response.text())
+    .then(text => {
+      document.getElementById("NX").innerHTML = marked.parse(text);
+    });
+    
 fetch("./markdown/projects/luminos.md")
     .then(response => response.text())
     .then(text => {
