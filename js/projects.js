@@ -46,3 +46,9 @@ fetch("../markdown/projects/extera.md")
     .then(text => {
       document.getElementById("Extera").innerHTML = marked.parse(text);
     });
+    
+fetch("../markdown/projects/strcpu.md")
+    .then(response => response.text())
+    .then(text => {
+      document.getElementById("STR").innerHTML = marked.parse(text);
+    });

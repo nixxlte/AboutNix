@@ -1,4 +1,4 @@
-// Code by NyanRay64 =3
+// Code by NixxLTE -w-
 
 function home() {
   document.Fhome.submit();
@@ -61,6 +61,12 @@ function start() {
     .then(response => response.text())
     .then (text => {
       document.getElementById("404error").innerHTML = marked.parse(text);
+    });
+
+  fetch("../markdown/main.md")
+    .then(response => response.text())
+    then(text => {
+      document.getElementById("main-portifolio").innerHTML = marked.parse(text);
     });
 
   document.Fhome.submit();

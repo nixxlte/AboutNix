@@ -1,2 +1,2 @@
 # Haii! :3
-### Eu sou o Ray.<br>Um estudante de C# focado em projetos linux/multiplataforma.
+### Eu sou Nix.<br>Um estudante de C# focado em projetos linux/multiplataforma.
