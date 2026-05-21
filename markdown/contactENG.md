@@ -1,4 +1,3 @@
 Contact me:  
-My e-mails : nixlte404@outlook.com 
-danielpaivacardozo@gmail.com  
-Discord : @imNyan.T64
+My e-mails : nixlte404@outlook.com  
+Discord : @nixxlte
