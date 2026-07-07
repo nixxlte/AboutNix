@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>DOOM</title>
+        <style>
+            body {
+            margin: 0;
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="dos"></canvas>
+        <script src="https://js-dos.com/6.22/current/js-dos.js"></script>
+        <script>
+            Dos(document.getElementById("dos"), {
+                url: "https://archive.org/download/doom-shareware/doom-shareware.zip",
+                kiosk: true
+            });
+        </script>
+    </body>
+</html>

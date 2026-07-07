@@ -1,0 +1,2 @@
+#### Um utilitario para extrair a *system.img* de uma ROM Android
+Esse utilitario utiliza ferraentas de sistema, 7z e Brotli para transformar o system.new.dat.br e o system.transfer.list de qualquer imagem Android em uma *system.img* funcional

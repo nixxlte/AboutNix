@@ -1,0 +1,36 @@
+name: Update commits JSON
+
+on:
+  schedule:
+    - cron: '0 0 * * *' 
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+
+    steps:
+    - name: Checkout do código
+      uses: actions/checkout@v4
+
+    - name: Buscar commits via GraphQL do GitHub
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        # Consulta GraphQL para extrair apenas o número total do ano atual
+        QUERY="{\"query\": \"query { viewer { contributionsCollection { contributionCalendar { totalContributions } } } }\"}"
+        RESPONSE=$(curl -s -H "Authorization: bearer $GITHUB_TOKEN" -X POST -d "$QUERY" https://api.github.com/graphql)
+        TOTAL=$(echo $RESPONSE | grep -oE '"totalContributions":[0-9]+' | cut -d':' -f2)
+        ANO=$(date +'%Y')
+        
+        # Cria ou atualiza o arquivo commits.json de forma limpa
+        echo "{\"ano\": \"$ANO\", \"totalCommits\": $TOTAL}" > commits.json
+
+    - name: Commitar e dar Push do JSON atualizado
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add commits.json
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Dados: commits.json atualizado" && git push)

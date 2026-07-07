@@ -1,0 +1,8 @@
+<footer class="footer" id="footer">
+      <h4>Feito por Nyan Nix (aka NixLTE404) -w- Utilizando HTML CSS e JS</h4>
+      <div class="contact-me">
+        <div class="contact" id="contactb"></div>
+      </div>
+      <p>Ultimo update: 20260324</p>
+      <h9>.</h9>
+    </footer>

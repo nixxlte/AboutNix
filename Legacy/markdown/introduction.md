@@ -1,0 +1,1 @@
+### Eu sou Nix.<br>Um estudante de C/C++ focado em projetos linux/multiplataforma.

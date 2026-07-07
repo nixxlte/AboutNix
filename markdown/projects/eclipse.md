@@ -1,2 +1,0 @@
-#### Um kernel feito em C, somente para aprendizado (makefile não funcional ainda, não compila)
-*o projeto está com o desenvolvimento parado por enquanto pois eu estou focando no LuminOS e em C# como um geral.
