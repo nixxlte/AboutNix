@@ -53,6 +53,10 @@
         }
         .black-link a {
             color: black;
+            /* padding: .2em .5em; */
+        }
+        .black-link a:hover {
+            color: white;
         }
         .devicon-python-plain {
             font-size: 50px;
@@ -212,31 +216,32 @@
                         </div>
                     </div>
                     <div>
-                        <div class="window glass player" id="player" style="max-width: 300px; --w7-w-bg: #7cc0ff5f;">
-                            <div class="title-bar">
-                                <div class="title-bar-text">Music Player</div>
-                                <div class="title-bar-controls">
-                                    <button aria-label="Minimize"></button>
-                                    <!-- <button aria-label="Maximize" disabled></button> -->
-                                    <button aria-label="Close"></button>
-                                </div>
-                            </div>
-                            <div class="window-body has-space black-link">
-                                <div style="display: flex; flex-direction: row; margin-left: 4px; margin-top: 4px;">
-                                    <img width="50" src="./assets/TheAngel.jpg">
-                                    <h3 style="margin-left: 15px;">
-                                        The Angel
-                                    </h3>
-                                </div>
-                                <div style="margin-top: 10px; margin-bottom: 5px;">
-                                    <button onclick="restartSong()">◀◀</button>
-                                    <button id="btnPlay" onclick="togglePlay()">▶ Play</button>
-                                    <button onclick="nextsong()">▶▶</button>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
+                <center><div class="window glass player" id="player" style="max-width: 300px; --w7-w-bg: #7cc0ff5f;">
+                    <div class="title-bar">
+                        <div class="title-bar-text">Music Player</div>
+                        <div class="title-bar-controls">
+                            <button aria-label="Minimize"></button>
+                            <!-- <button aria-label="Maximize" disabled></button> -->
+                            <button aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="window-body has-space black-link">
+                        <div style="display: flex; flex-direction: row; margin-left: 4px; margin-top: 4px;">
+                            <img width="50" src="./assets/TheAngel.jpg">
+                            <h3 style="margin-left: 15px;">
+                                The Angel
+                            </h3>
+                        </div>
+                        <div style="margin-top: 10px; margin-bottom: 5px;">
+                            <button onclick="restartSong()">◀◀</button>
+                            <button id="btnPlay" onclick="togglePlay()">▶ Play</button>
+                            <button onclick="nextsong()">▶▶</button>
+                        </div>
+                    </div>
+                </div></center>
                 <div class="window glass" id="projects" style="max-width: 1050px; --w7-w-bg: #7cc0ff5f;">
                     <div class="title-bar">
                         <div class="title-bar-text" id="projects">Projetos</div>
